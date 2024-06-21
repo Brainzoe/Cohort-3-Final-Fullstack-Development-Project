@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "image": "/assets/images/burger/burger1.jpg",
+    "descript": "Tasty grilled big burger on a wooden plate",
+    "price": 8.99
+  },
+  {
+    "Id": 2,
+    "image": "/assets/images/burger/burger2.jpg",
+    "descript": "Chicken burger with cheddar served with French fries and sauce",
+    "price": 9.49
+  },
+  {
+    "Id": 3,
+    "image": "/assets/images/burger/burger3.jpg",
+    "descript": "Meat burger with fried potatoes",
+    "price": 7.99
+  },
+  {
+    "Id": 4,
+    "image": "/assets/images/burger/burger4.jpg",
+    "descript": "Grilled cheeseburger with beef, tomato, and fries",
+    "price": 10.99
+  },
+  {
+    "Id": 5,
+    "image": "/assets/images/burger/burger5.jpg",
+    "descript": "Tasty homemade sandwich with tomatoes and pepper",
+    "price": 6.49
+  },
+  {
+    "Id": 6,
+    "image": "/assets/images/burger/burger6.jpg",
+    "descript": "Vegan hamburger with soy-based patty",
+    "price": 8.49
+  },
+  {
+    "Id": 7,
+    "image": "/assets/images/burger/burger7.avif",
+    "descript": "Tasty grilled big burger",
+    "price": 9.99
+  }
+]

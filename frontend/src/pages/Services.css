@@ -1,0 +1,107 @@
+/* src/pages/Services.css */
+
+.services {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.food-catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribute space evenly between items */
+}
+
+.food-item-wrapper {
+  flex: 0 0 calc(33.33% - 20px); /* Three items per row */
+  margin: 10px;
+  max-width: calc(33.33% - 20px); /* Adjusted to match flex calculation */
+}
+
+.food-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure all cards have the same height */
+}
+
+.food-item:hover {
+  transform: scale(1.05);
+}
+
+.image-container {
+  flex-shrink: 0;
+  height: 200px; /* Set a fixed height for images */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container without stretching */
+}
+
+.food-item .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Ensure body grows to fill the remaining space */
+}
+
+.food-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #27ae60;
+  margin-top: auto; /* Push the button to the bottom */
+}
+
+.order-button {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: center; /* Center the button horizontally */
+}
+
+.order-button:hover {
+  background-color: #219150;
+}
+
+@media (max-width: 992px) {
+  .food-item-wrapper {
+    flex: 0 0 calc(50% - 20px); /* Two items per row on tablets */
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 992px) {
+  .food-item-wrapper {
+    flex: 0 0 calc(50% - 20px); /* Two items per row on tablets */
+    max-width: calc(50% - 20px);
+  }
+}
+
+
+@media (max-width: 767px) {
+  .food-item-wrapper {
+    flex: 0 0 100%; /* One item per row on smaller screens */
+    max-width: 100%; /* Adjusted to match flex calculation */
+  }
+}

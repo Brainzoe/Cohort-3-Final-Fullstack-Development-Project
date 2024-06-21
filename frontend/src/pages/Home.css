@@ -1,0 +1,31 @@
+.home {
+  margin: 20px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carousel-caption h3 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.carousel-image {
+  height: 500px; /* Set a fixed height for the carousel images */
+  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+}
+

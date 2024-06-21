@@ -1,0 +1,53 @@
+/* src/pages/About.css */
+
+/*.about {
+  /* background: linear-gradient(
+      rgba(146, 129, 129, 0.1),
+      rgba(0.8, 0, 0, 0.1)
+    ), */
+    /* url('../../public/logo/logo2-removebg.png') no-repeat center center fixed; Background image with gradient overlay */
+  /* background-size: contain; Ensure the image fits inside the background */
+  /* background-position: center; Center the background image */
+  /* color: rgba(76, 70, 70, 0.8); Dark gray text with some opacity */
+  /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+ /* padding: 40px; */
+  /*font-family: 'Georgia', serif; /* Elegant font */
+
+
+.about::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('/logo/logo2-removebg.png') no-repeat center center fixed;
+  background-size: 50%;
+  opacity: 0.3; /* Adjust the opacity as needed */
+}
+
+
+  
+  .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  
+  .about p:last-child {
+    margin-bottom: 0;
+  }
+  
+  

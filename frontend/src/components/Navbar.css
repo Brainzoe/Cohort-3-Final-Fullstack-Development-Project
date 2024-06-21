@@ -1,0 +1,29 @@
+/* src/components/Navbar.css */
+
+nav {
+  background: #000;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
+  z-index: 10;
+}
+
+nav img {
+  height: 1000px;
+  width: 1000px;
+}
+
+nav a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 94%;
+  cursor: pointer;
+}
+
+nav a.active {
+  color: #15cdfc;
+}

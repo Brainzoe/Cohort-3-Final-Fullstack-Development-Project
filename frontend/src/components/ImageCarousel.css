@@ -1,0 +1,17 @@
+/* src/components/ImageCarousel.css */
+
+/* .carousel-container {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for your carousel */
+/*margin: 0 auto; /* Center the carousel */
+/* }
+  */
+/*.carousel .slide img {
+    width: 100%;
+    height: auto;
+  }
+   */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
